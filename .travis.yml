@@ -16,7 +16,7 @@ before_install:
   - sudo mv docker-compose /usr/local/bin
 
 script:
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - echo "8Hyw!2WcrTk2!6T" | docker login -u "chuyanyang01@gmail.com" --password-stdin
   - docker run --rm -v $(pwd):/app jekkos/composer composer install
   - docker run --rm -v $(pwd):/app jekkos/composer php bin/install.php translations develop
   - sed -i "s/'\(dev\)'/'$rev'/g" application/config/config.php
