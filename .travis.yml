@@ -35,7 +35,7 @@ env:
   - date=`date +%Y%m%d%H%M%S` && branch=${TRAVIS_BRANCH} && rev=`git rev-parse --short=6 HEAD` 
 after_success:
   - TAG=${TRAVIS_TAG:-$BRANCH}
-  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD" && docker tag "ospos:latest"
+  - docker login -u="chuyanyang01@gmail.com" -p="8Hyw!2WcrTk2!6T" && docker tag "ospos:latest"
     "jekkos/opensourcepos:$TAG" && docker push "jekkos/opensourcepos:$TAG" && docker push "jekkos/opensourcepos:sqlscript"
   - sudo mv dist/opensourcepos.tgz "dist/opensourcepos.$version.$rev.tgz"
   - sudo mv dist/opensourcepos.zip "dist/opensourcepos.$version.$rev.zip"
