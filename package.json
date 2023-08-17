@@ -1,16 +1,15 @@
 {
   "name": "@yy-cc-20/opensourcepos",
-  "version": "3.3.8",
+  "version": "CICD_Configuration",
   "description": "Open Source Point of Sale is a web-based point of sale system written in the PHP language. It uses MySQL as the data storage back-end and has a simple user interface.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/opensourcepos/opensourcepos.git"
+    "url": "git+https://github.com/yy-cc-20/opensourcepos.git"
   },
   "main": "index.php",
   "license": "UNLICENSED",
   "authors": [
-    "jekkos <jekkos - at - opensourcepos.org>",
-    "FrancescoUK <francesco.lodolo.uk - at - gmail.com>"
+    "Yang Chu Yan"
   ],
   "scripts": {
     "install": "composer install & bower install",
@@ -53,9 +52,9 @@
     "bootswatch": "^5.1.3"
   },
   "bugs": {
-    "url": "https://github.com/opensourcepos/opensourcepos/issues"
+    "url": "https://github.com/yy-cc-20/opensourcepos/issues"
   },
-  "homepage": "https://github.com/opensourcepos/opensourcepos#readme",
+  "homepage": "https://github.com/yy-cc-20/opensourcepos#readme",
   "directories": {
     "test": "test"
   },
