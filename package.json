@@ -1,6 +1,6 @@
 {
   "name": "@yy-cc-20/opensourcepos",
-  "version": "CICD_Configuration_v5",
+  "version": "CICD_Configuration_v7",
   "description": "Open Source Point of Sale is a web-based point of sale system written in the PHP language. It uses MySQL as the data storage back-end and has a simple user interface.",
   "repository": {
     "type": "git",
